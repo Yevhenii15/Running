@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    padding-left: 50px; 
+}
+li a p{
+    transition: 0.5s;
+    color: #F8D978;
+    margin: 0;
+    padding: 5px;
+}
+li a p:hover {
+    color: white;
+}
+.card-img-overlay{
+    top: 225px; 
+    left: 861px;
+    height: 284px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.337);
+}
+.botton a{
+    text-decoration: none;
+}
+.botton a p{
+    background-color: #F8D978;
+    color: white;
+    width: 25%;
+    transition: 0.5s;
+    padding: 10px;
+    font-size:24px;
+}  
+.botton a p:hover{
+    background-color: rgba(0, 0, 0, 0.148);
+    color:#F8D978;
+}
+.box-botton a{
+    text-decoration: none;
+}
+.box-botton p{
+    color: black;
+    font-size:24px;
+    background-color: #F8D978;
+    transition: 0.5s;
+    padding: 10px;
+    width: 25%;
+}
+.box-botton p:hover{
+    color: white;
+    background-color: black;
+}
+p{
+    font-size: 20px;
+}
+.container-fluid-one{
+    padding: 30px 100px 30px 100px; 
+}
+.container-fluid-one p{
+    font-size: 17px;
+    padding-top: 5px;
+}
+.box{
+    background-color: #F8D978;
+    transition: 0.5s;
+    width: 20%;
+}
+.box:hover{
+    background-color: black;
+}
+.line{
+    background-color: #ff8000;
+    height: 10px;
+    margin: 20px 0 40px 0;
+}
+.box1-botton a{
+    text-decoration: none;
+}
+.box1-botton a p{
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    width: 194px;
+    padding: 5px;
+}
+.box1-botton a p:hover{
+    background-color: black;
+    color: white;
+}
+@media screen and (width < 500px) {
+    .navbar-brand{
+    padding-left: 0;
+    }
+    .container-fluid-one{
+        padding: 0px;
+    }
+    .col.first{
+        padding: 50px;
+    }
+    .box-botton p{
+        width: 55%;
+    }
+}  
+
